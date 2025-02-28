@@ -23,7 +23,7 @@ user_input = st.text_input("Describe a challenge your facing :")
 #condition 
 
 if user_input:
-    st.success(f"💪Your fcing : {user_input}.Keep pushing forward towards your goal!🚀")
+    st.success(f"💪Your facing: {user_input}.Keep pushing forward towards your goal!🚀")
 
 else:
     st.warning("Tell us about your challenge to get started!🌟")
